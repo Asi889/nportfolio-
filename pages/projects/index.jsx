@@ -17,7 +17,7 @@ const Projects = () => {
       <NextSeo {...seo} />
       <ParticlesBackground />
       <div
-        className={`text-primary pb-10 relative railway  pt-10  w-full  text-center z-40 lg:text-[40px] text-[30px]  font-bold motion-text`}
+        className={`text-primary pb-10 relative railway  pt-10  w-full  text-center z-40 lg:text-[40px] text-[30px] flex justify-center lg:justify-start font-bold motion-text`}
       >
         <FramerText animateText={animateText} />
       </div>
